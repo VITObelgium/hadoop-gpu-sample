@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+export PYSPARK_PYTHON="/usr/bin/python3.5"
  
 spark-submit \
 --executor-memory 1g --driver-memory 32g \
